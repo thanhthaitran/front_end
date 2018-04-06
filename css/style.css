@@ -5,7 +5,7 @@
 }
 .container {
   width: 80%;
-  margin:  0 10%;
+  margin:  0 auto;
 }
 .logo-header {
   float: left;
@@ -20,6 +20,8 @@
 }
 .hotline {
   float: left;
+  position: absolute;
+  right: 45%;
 }
 .phone {
   float: right;
@@ -29,38 +31,49 @@
 }
 .hotline img {
   float: left;
-  padding: 15px 5px 0px 0px;
+  padding: 8px 5px 0px 0px;
 }
 .hotline .hotline-contact{
   float: left;
 }
-.header-right {
-  width: 70%;
-}
-.header-contact {
-  width: 70%;
-  padding: 5px 0px 5px 200px;
-}
 .phone img {
   float: left;
-  padding: 15px 5px 0px 0px;
+  padding: 8px 5px 0px 0px;
 }
 .phone-contact {
   float: left;
 }
+.menu-list {
+  padding: 0%;
+  text-transform: uppercase;
+}
 .menu-item {
-  margin:  0px 30px 0px 0px;
+  margin: 0px 0px 0px 20px;
+}
+.header-contact {
+  position: relative;
+}
+.customer {
+  margin: 5px;
+}
+.customer-phone {
+  margin: 0px 0px 0px 5px;
 }
 
 /* main */
+
+/* banner */
 .banner {
   color: #fff;
   height: 500px;
   background-size: cover;
   text-align: center;
   padding-top: 25%;
+  text-transform: uppercase;
 }
-/* destination */
+.view-background {
+  background-color: #0ec0ee;
+}
 .view-tour a {
   border: 1px solid #fff;
   color: #fff;
@@ -69,12 +82,18 @@
   width: 10%;
   display: inline-block;
 }
+/* destination */
+.viewmore {
+  text-transform: uppercase;
+}
 .view-title {
   display: inline-block;
+  /* color: #fff; */
 }
 .viewmore a {
   background-color: #ffa800;
-  padding: 5px;
+  padding: 10px;
+  color: #fff;  
   border-radius: 5%
 }
 .destination-item {
@@ -131,6 +150,9 @@
 }
 
 /* support */
+.support {
+  background-size: 100% 100%; 
+}
 .support-list {
   float: left;
   margin: 20px 48px 20px 120px;
