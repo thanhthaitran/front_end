@@ -2,10 +2,10 @@
 <html>
 <head>
   <title>HadaTour</title>
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
-  <link rel="stylesheet" type="text/css" href="../css/reset.css">
   <link rel="stylesheet" type="text/css" href="../css/font-myri.css">
   <link rel="stylesheet" type="text/css" href="../css/font-utm.css">
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
   <header class="page-header clear">
@@ -53,7 +53,7 @@
       <div class="banner-content">
         <h1 class="banner-title">Tour du lịch phố cổ Hội An</h1>
         <p class="banner-preview">Tham quan mua sắm cùng hướng dẫn viên chuyên nghiệp</p>
-        <a href="" class="view-background">Xem tour</a>
+        <a href="">Xem tour</a>
         <a href="">Chi tiết</a>
       </div>
     </div>
@@ -108,31 +108,39 @@
         <div class="logo-main">
           <a href=""><img src="../images/logo.png" alt="logo"></a>
         </div>
-        <div class="search-main">
-          <input id="tab1" type="radio" name="tabs" checked>
-          <label for="tab1">Search Tour
-            <p class="sub-title">let's choose a destination</p>
-          </label>
-          <input id="tab2" type="radio" name="tabs">
-          <label for="tab2">Search Hotel
-            <p class="sub-title">Choose the hotel that fits your needs</p>
-          </label>
-          <section id="content1" class="tab-css-search">
-            <form class="search-form tab-content">
-              <input type="text" name="location" placeholder="Location">
-              <input type="text" name="length" placeholder="Length">
-              <input type="text" name="price" placeholder="Price">
-              <button class="btn-search" type="submit"><img src="../images/icon-search.png" alt="search">&nbsp;Search</button>
-            </form>
-          </section>
-          <section id="content2" class="tab-css-search">
-            <form class="search-form tab-content" id="content2">
-              <input type="text" name="location" placeholder="Location">
-              <input type="text" name="length" placeholder="Check in">
-              <input type="text" name="price" placeholder="Price">
-              <button class="btn-search" type="submit"><img src="../images/icon-search.png" alt="search">&nbsp;Search</button>
-            </form>
-          </section>
+        <div class="search-group">
+          <ul class="tab-links clear ">
+            <li id="content1" class="tab-links-item links-border-tours">
+              <a href="#1">
+                <p class="search-title">Search Tour</p>
+                <p class="search-preview">Let's choose a destination</p>
+              </a>
+            </li>
+            <li id="content2" class="tab-links-item links-border-hotel">
+              <a href="#2">
+                <p class="search-title">Search Hotel</p>
+                <p class="search-preview">Choose the hotel that fits your needs</p>
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div id="tabs1" class="tab-content-item">
+              <form class="search-form">
+                <input type="text" name="location" placeholder="Location">
+                <input type="text" name="length" placeholder="Length">
+                <input type="text" name="price" placeholder="Price">
+                <button class="btn-search" type="submit"><img src="../images/icon-search.png" alt="search">&nbsp;Search</button>
+              </form>
+            </div>
+            <div id="tabs2" class="tab-content-item">
+              <form class="search-form">
+                <input type="text" name="location" placeholder="Location">
+                <input type="text" name="length" placeholder="Check in">
+                <input type="text" name="price" placeholder="Price">
+                <button class="btn-search" type="submit"><img src="../images/icon-search.png" alt="search">&nbsp;Search</button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -312,7 +320,7 @@
                 <a href=""><img src="../images/icon-support.png" alt="support"></a>
               </div>
             </li>
-            <li class="support-item">
+            <li class="support-item support-border">
               <span class="support-tour">Book air ticket</span>
               <div class="support-contact">
                 <a href=""><img src="../images/icon-contact-phone-white.png" alt="contact phone white"></a>

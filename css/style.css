@@ -33,6 +33,7 @@
 }
 .menu-item {
   float: left;
+  margin-left: 50px;
 }
 .hotline img {
   float: left;
@@ -56,9 +57,6 @@
 .menu-list {
   padding: 10px 0px 10px 0px;
   text-transform: uppercase;
-}
-.menu-item {
-  margin-left:50px;
 }
 .menu-item a {
   font-weight: bold;
@@ -103,16 +101,21 @@
   border: 2px solid #fff;
   color: #fff;
   border-radius: 5%;
-  padding: 10px 40px;
+  padding: 10px 25px;
   font-size: 14px;
   margin: 0px 5px;
   font-weight: bold;
   font-family: "UTM BryantLG",sans-serif;
 } 
+.banner-content a:hover {
+  background-color: #0ec0ee;
+  border: 2px solid #0ec0ee;
+}
+
 /* destination */
 .destination {
   position: relative;
-  top: -140px;
+  margin-top: -140px;
 }
 .viewmore {
   text-transform: uppercase;
@@ -128,11 +131,13 @@
 }
 .viewmore a {
   background-color: #ffa800;
-  padding: 13px 15px 10px 15px;
+  padding: 13px 15px 9px 15px;
   color: #fff;  
   border-radius: 5px;
   font-size: 14px;
   font-family: "MyriadPro Regular", sans-serif;
+  position: relative;
+  bottom: 2px;
 }
 .destination-item {
   float: left;
@@ -173,67 +178,54 @@
 /* search */
 .search {
   background-image: url(../images/background-search.png);
-  background-size: cover
+  background-size: cover;
   padding: 30px 0 50px;
-  position: relative;
-  top: -90px;
+  margin-top: 30px;
 }
 .logo-main {
   float: left;
   padding: 5% 0px 0px 0px;
 }
-.search-main {
-  overflow: hidden;
+.search-group {
   float: right;
 }
-.search-main .tab-css-search {
-  display: none;
-  padding: 20px 0 0;
-  border-top: 1px solid #dddddd;
+.tab-links-item {
+  float: left;
+  padding: 15px 25px;
+  margin: 0 0 -1px;
 }
-.search-main label {
+.tab-links {
+  text-transform: uppercase;
+}
+.search-title {
   font-family: "MyriadPro Regular", sans-serif;
   font-size: 26px;
-  display: inline-block;
-  margin: 0 0 -1px;
-  padding: 15px 25px;
-  text-align: left;
-  text-transform: uppercase;
-  color: #000000;
-  border: 1px solid transparent;
-  border-radius: 5px 5px 0 0;
+  margin-bottom: 10px;
 }
-.search-main label p {
+.search-preview {
   font-size: 14px;
   color: #737373;
 }
-.search-main input {
-  display: none;
+.links-border-tours {
+  border: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
 }
-.search-main input:checked + label {
-  border: 1px solid #dddddd;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #ffffff;
-  text-align: left;
-}
-#tab1:checked ~ #content1,
-#tab2:checked ~ #content2,
-.search-main .search-form input {
-  display: block;
-}
-.search-main .tab-css-search input {
+.search-group .tab-content .tab-content-item input {
   border-radius: 20px;
-  display: inline;
-  margin-right: 15px;
 }
-.search-main .tab-css-search input[name="location"] {
+.search-group .tab-content-item input[name="location"] {
   width: 400px;
 }
-.search-main .tab-css-search input[name="length"],
-.search-main .tab-css-search input[name="price"] {
+.search-group .tab-content-item input[name="length"],
+.search-group .tab-content-item input[name="price"] {
   width: 145px;
 }
-.search-main .tab-css-search .btn-search {
+.tab-content {
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+.tab-content-item .btn-search {
   position: relative;
   height: 40px;
   border-radius: 20px;
@@ -243,15 +235,6 @@
   padding: 0 35px;
   text-transform: none;
   margin-left: 10px;
-}
-.search-main .tab-css-search .btn-search::beffore {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  width: 1px;
-  height: 30px;
-  background-color: #e1e1e1;
 }
 
 /* tours */
@@ -318,6 +301,7 @@
 }
 .orther {
   display: inline-block;
+  font-size: 15px;
 }
 
 /* support */
@@ -335,6 +319,9 @@
   float: left;
   width: 25%;
   border-right: 1px solid #5c5652;
+}
+.support-border {
+  border-right: 0px;
 }
 .support-list {
   text-align: center;
@@ -355,10 +342,10 @@
 
 /* activity */
 .title-top {
-  color: #000 !important;
+  color: #000;
 }
 .activity {
-  padding: 30px 0 50px;
+  margin: 5px 0px 50px 0px;
 }
 .activity-list {
   margin: 0 -10px; 
