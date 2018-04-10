@@ -6,6 +6,8 @@
   <link rel="stylesheet" type="text/css" href="../css/font-utm.css">
   <link rel="stylesheet" type="text/css" href="../css/reset.css">
   <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <header class="page-header clear">
@@ -33,6 +35,9 @@
           </div>
         </div>
         <nav class="main-menu">
+          <div class="btn-menu" onclick="myFunction()" class="dropbtn">
+            <span></span>
+          </div>
           <ul class="menu-list clear">
             <li class="menu-item"><a href="">Home</a></li>
             <li class="menu-item"><a href="">About Hadatour</a></li>
@@ -132,14 +137,14 @@
                 <button class="btn-search" type="submit"><img src="../images/icon-search.png" alt="search">&nbsp;Search</button>
               </form>
             </div>
-            <div id="tabs2" class="tab-content-item">
+            <!-- <div id="tabs2" class="tab-content-item">
               <form class="search-form">
                 <input type="text" name="location" placeholder="Location">
                 <input type="text" name="length" placeholder="Check in">
                 <input type="text" name="price" placeholder="Price">
                 <button class="btn-search" type="submit"><img src="../images/icon-search.png" alt="search">&nbsp;Search</button>
               </form>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -256,7 +261,7 @@
                   <a href=""><img src="../images/hotel-1.png " alt="hotel 1"></a>
                   <div class="tours-box">
                     <img src="../images/icon-coconut.png" alt="coconut">
-                    <div class="tours-side">
+                    <div class="tours-side tours-rate">
                         <p class="tours-country"><a href="">Hotel Novotel</a></p>
                         <img src="../images/icon-rating-star.png" alt="rating star">
                     </div>
@@ -266,7 +271,7 @@
                   <a href=""><img src="../images/hotel-2.png " alt="hotel 2"></a>
                   <div class="tours-box">
                     <img src="../images/icon-coconut.png" alt="coconut">
-                    <div class="tours-side">
+                    <div class="tours-side tours-rate">
                         <p class="tours-country"><a href="">Hotel Novotel</a></p>
                         <img src="../images/icon-rating-star.png" alt="rating star">
                     </div>
@@ -276,7 +281,7 @@
                   <a href=""><img src="../images/hotel-3.png " alt="hotel 3"></a>
                   <div class="tours-box">
                     <img src="../images/icon-coconut.png" alt="coconut">
-                    <div class="tours-side">
+                    <div class="tours-side tours-rate">
                         <p class="tours-country"><a href="">Hotel Novotel</a></p>
                         <img src="../images/icon-rating-star.png" alt="rating star">
                     </div>
@@ -299,14 +304,14 @@
         <h2 class="support-title">Support online</h2>
         <div class="support-center">
           <ul class="support-list clear">
-            <li class="support-item">
+            <li class="support-item support-margin">
               <span class="support-tour">Book tour</span>
               <div class="support-contact">
                 <a href=""><img src="../images/icon-contact-phone-white.png" alt="contact phone white"></a>
                 <a href=""><img src="../images/icon-support.png" alt="support"></a>
               </div>
             </li>
-            <li class="support-item">
+            <li class="support-item support-margin support-border">
               <span class="support-tour">Book hotel</span>
               <div class="support-contact">
                 <a href=""><img src="../images/icon-contact-phone-white.png" alt="contact phone white"></a>
@@ -320,7 +325,7 @@
                 <a href=""><img src="../images/icon-support.png" alt="support"></a>
               </div>
             </li>
-            <li class="support-item support-border">
+            <li class="support-item support-border support-bottom">
               <span class="support-tour">Book air ticket</span>
               <div class="support-contact">
                 <a href=""><img src="../images/icon-contact-phone-white.png" alt="contact phone white"></a>

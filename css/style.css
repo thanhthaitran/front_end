@@ -83,7 +83,7 @@
 .banner-content {
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 40%;
   left: 25%;
 }
 .banner-title {
@@ -147,9 +147,6 @@
 .destination-list {
   margin: 0 -10px;
 }
-.destination-item a img {
-  width: 100%;
-}
 .destination-bot {
   background-color: #fff;
   padding: 20px 0px 15px 15px;
@@ -175,6 +172,8 @@
 .price {
   font-size: 14px;
 }
+
+
 /* search */
 .search {
   background-image: url(../images/background-search.png);
@@ -338,6 +337,20 @@
 .support-contact img {
   margin: 0 9px;
   margin-top: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+.support-contact a:hover img {
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+               transform: rotateY(-180deg);
+
 }
 
 /* activity */
