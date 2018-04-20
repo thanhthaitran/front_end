@@ -40,7 +40,7 @@
   console.log(sum(2,8));
   console.log(sum(8,8));
   ```
-2. Write a JavaScript program to compute the absolute difference between a specified number and 19. Returns triple their absolute difference if the specified number is greater than 19.
+2. Write a JavaScript program to compute the absolute difference between a specified number and 19. Returns triple their absolute difference if the s                                                                                                           pecified number is greater than 19.
 
   ```javascript
   function subtrac(a) {
@@ -67,7 +67,7 @@
     }
     return result;
   }
-  ```
+  ```                                 
 4. A masked number is a string that consists of digits and one asterisk (*) that should be replaced by exactly one digit. Given a masked number find all the possible options to replace the asterisk with a digit to produce an integer divisible by 6.
 
   ```javascript

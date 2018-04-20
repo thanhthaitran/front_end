@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Playlist Youtube</title>
+	<link rel="stylesheet" href="playlist.css">
+</head>
+
+<body>
+	<div class="container">
+    <section class="section-video clearfix">
+      <div class="video-content">
+        <iframe id="now-playing" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="adjust clearfix">
+        <button class="adj-btn" id="pre-vid" onclick="changeVideo(this.id)">Previous</button>
+        <button class="adj-btn" id="next-vid" onclick="changeVideo(this.id)">Next</button>
+      </div>
+    </section>
+    <section class="section-list">
+      <ul class="video-list" id="video-list">
+  
+      </ul>
+    </section>
+  </div>
+</body>
+<script src="playlist.js"></script>
+</html>
