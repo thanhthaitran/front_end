@@ -1,0 +1,60 @@
+table{
+  padding: 0;
+  border: none;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  width: 1170px;
+  margin: 20px auto 10px;
+  background-color: #fff;
+}
+table td {
+  padding: 0;
+  border: none;
+  border-collapse: collapse;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+.list-product tr>td, 
+.list-product tr>th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  font-weight: normal;
+}
+img {
+  vertical-align: top;
+  width: 100px;
+	height: 120px;
+}
+.list-product {
+  text-align: center;
+}
+.title {
+  font-size: 18px;
+  margin-top: 20px;
+  float: left;
+}
+.delete {
+  background-color: #f57227;
+  border-radius: 5px;
+  border: 1px solid #f57227;
+  color: #fff;
+}
+.clear::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.back {
+  float: right;
+  margin-top: 20px;
+  background-color: #f57227;
+  border-radius: 5px;
+  border: 1px solid #f57227;
+  padding: 0 5px;
+  cursor: pointer;
+}
